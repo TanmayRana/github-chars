@@ -14,3 +14,9 @@ sayName();
 const sum = (a, b) => {
   return a + b;
 };
+
+function Hello(name) {
+  console.log(`Hello ${name} 👋`);
+}
+
+Hello("Tanmay");
