@@ -28,7 +28,12 @@ const newArr = arr.map((item) => {
 });
 console.log(newArr);
 
-const sumarr = arr.reduce((acc, curr) => {
-  return acc + curr;
-}, 0);
-console.log(sumarr);
+const nameObj = {
+  1: "Tanmay",
+  2: "Mrinmay",
+  3: "Rivu",
+};
+const newObj = Object.keys(nameObj).map((key) => {
+  return nameObj[key];
+});
+console.log(newObj);
