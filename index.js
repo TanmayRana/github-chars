@@ -27,3 +27,8 @@ const newArr = arr.map((item) => {
   return item * 2;
 });
 console.log(newArr);
+
+const sumarr = arr.reduce((acc, curr) => {
+  return acc + curr;
+}, 0);
+console.log(sumarr);
