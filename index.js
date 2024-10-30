@@ -15,8 +15,9 @@ const sum = (a, b) => {
   return a + b;
 };
 
-function Hello(name) {
-  console.log(`Hello ${name} 👋`);
+function Hello(data) {
+  const { naem, email } = data;
+  console.log("Hello " + naem + " your email is " + email);
 }
 
-Hello("Tanmay");
+Hello({ naem: "Tanmay", email: "tanmay@gmail.com" });
